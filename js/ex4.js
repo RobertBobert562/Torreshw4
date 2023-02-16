@@ -10,14 +10,14 @@ let min = values[0];
 let max = values[0];
 
 //this for loop iterates through all elements of the values array. 
-//it adds every element of the array into 'sum'
-//initializes min as the first element in the array and checks if the next element is less than the min.
-//initializes max as the first element and checks if every iterated element is larger than max
 for (let i = 0; i < values.length; i++) {
+  //it adds every element of the array into 'sum'
   sum += values[i];
+  //initializes min as the first element in the array and checks if the next element is less than the min.
   if (values[i] < min) {
     min = values[i];
   }
+  //initializes max as the first element and checks if every iterated element is larger than max
   if (values[i] > max) {
     max = values[i];
   }

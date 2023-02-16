@@ -8,14 +8,15 @@ console.log("Torres Output from HW 4 Example 6");
 function countVowels(word) {
     // Make the word lowercase to make the function case-insensitive
     word = word.toLowerCase();
-    
+    //initialize vowel count as 0
     let count = 0;
+    //iterates through the words length to check if it has vowels.
     for (let i = 0; i < word.length; i++) {
       if (word[i] === 'a' || word[i] === 'e' || word[i] === 'i' || word[i] === 'o' || word[i] === 'u' || word[i] === 'y') {
         count++;
       }
     }
-    
+    //returns vowel count
     return count;
   }
   
@@ -45,5 +46,6 @@ function countVowels(word) {
   let palindrome = isPalindrome(word);
   
   // Display the results
+  //can this be implemented using boolean for palindrome identification?
   console.log(`${word} contains ${vowelCount} vowels and is ${palindrome ? 'a palindrome' : 'not a palindrome'}.`);
   

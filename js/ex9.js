@@ -5,6 +5,7 @@
 console.log("Torres Output from HW 4 Example 9");
 
 // Function to determine if a number entered is odd or even
+//this uses the arrow function syntax
 const isEven = (n1) => {
     if (n1 % 2 === 0) {
       return true;

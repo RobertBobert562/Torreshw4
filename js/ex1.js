@@ -29,6 +29,7 @@ function calculator() {
         return;
     }
   
+    //'${ex}' references variables from the function
     console.log(`${number1} ${operator} ${number2} = ${result}`);
   }
   
